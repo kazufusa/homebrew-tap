@@ -2,27 +2,27 @@ class Oocla < Formula
   desc "Ollama- and OpenAI-compatible API server backed by the claude CLI"
   homepage "https://github.com/kazufusa/oocla"
   license "MIT"
-  version "1.4.1"
+  version "1.4.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/kazufusa/oocla/releases/download/v1.4.1/oocla_1.4.1_darwin_arm64.tar.gz"
-      sha256 "86a7f25929a9d6764858b2d985f4cd58a9d8a10ec881422771ffea5327ee7a8e"
+      url "https://github.com/kazufusa/oocla/releases/download/v1.4.2/oocla_1.4.2_darwin_arm64.tar.gz"
+      sha256 "48fb925b3542ef202d4335352c141c4f94b2e856a69926b91d71f92b3992dff2"
     end
     on_intel do
-      url "https://github.com/kazufusa/oocla/releases/download/v1.4.1/oocla_1.4.1_darwin_amd64.tar.gz"
-      sha256 "2eba4c36e8fc8c52f6d0aa0e6d770c23465e2c0e0de1c90ecde30bee67f0a39a"
+      url "https://github.com/kazufusa/oocla/releases/download/v1.4.2/oocla_1.4.2_darwin_amd64.tar.gz"
+      sha256 "ae7dc5a64a344261df66442170c6e3ffc8e36c6f760a6931fd3839a7df76c1c8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kazufusa/oocla/releases/download/v1.4.1/oocla_1.4.1_linux_arm64.tar.gz"
-      sha256 "c1fb131dc5505e941f71e90d52ad9c2fc17b60b6a7c86d4a9a937af6e7184fa8"
+      url "https://github.com/kazufusa/oocla/releases/download/v1.4.2/oocla_1.4.2_linux_arm64.tar.gz"
+      sha256 "b50b446c5cb2183ec6f8a3e91243082ab6bb929162350370e15c0ad923ea1dd5"
     end
     on_intel do
-      url "https://github.com/kazufusa/oocla/releases/download/v1.4.1/oocla_1.4.1_linux_amd64.tar.gz"
-      sha256 "2731a8e7d536adbc5f231f646dd090b95e4847114ef5c0fb106b5f7be7772dd7"
+      url "https://github.com/kazufusa/oocla/releases/download/v1.4.2/oocla_1.4.2_linux_amd64.tar.gz"
+      sha256 "30c931ccd7af205ecd3d863860d2bd61af051c4b73b8b43bb68a72ccbfa6845b"
     end
   end
 
